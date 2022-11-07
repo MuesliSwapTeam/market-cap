@@ -14,13 +14,13 @@ You can use [Blockfrost Adapter](https://github.com/minswap/blockfrost-adapter) 
 
 ## Install
 
-- NPM: `npm install @minswap/market-cap`
-- Yarn: `yarn add @minswap/market-cap`
+- NPM: `npm install @muesliswap/market-cap`
+- Yarn: `yarn add @muesliswap/market-cap`
 
 ## Usage
 
 ```ts
-import { supplyFetchers } from "@minswap/market-cap";
+import { supplyFetchers } from "@muesliswap/market-cap";
 
 const minInfo = await supplyFetchers[
   "29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e"
