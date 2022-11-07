@@ -10,6 +10,7 @@ import dingFetcher from "./tokens/ding";
 import discoFetcher from "./tokens/disco";
 import empFetcher from "./tokens/emp";
 import geroFetcher from "./tokens/gero";
+import herbFetcher from "./tokens/herb";
 import hoskyFetcher from "./tokens/hosky";
 import iagFetcher from "./tokens/iag";
 import liqwidFetcher from "./tokens/lq";
@@ -78,4 +79,5 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
   ce5b9e0f8a88255b65f2e4d065c6e716e9fa9a8a86dfb86423dd1ac044494e47: dingFetcher,
   "8f52f6a88acf6127bc4758a16b6047afc4da7887feae121ec217b75a534e4f57":
     snowFetcher,
+  bb4cfbe0f6be60b80f90f815e8353b93431de4df785d75350b9d214a48455242: herbFetcher,
 };
