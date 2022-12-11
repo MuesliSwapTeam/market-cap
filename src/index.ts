@@ -13,6 +13,7 @@ import geroFetcher from "./tokens/gero";
 import herbFetcher from "./tokens/herb";
 import hoskyFetcher from "./tokens/hosky";
 import iagFetcher from "./tokens/iag";
+import indyFetcher from "./tokens/indy";
 import liqwidFetcher from "./tokens/lq";
 import meldFetcher from "./tokens/meld";
 import milkFetcher from "./tokens/milk";
@@ -80,4 +81,5 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
   "8f52f6a88acf6127bc4758a16b6047afc4da7887feae121ec217b75a534e4f57":
     snowFetcher,
   bb4cfbe0f6be60b80f90f815e8353b93431de4df785d75350b9d214a48455242: herbFetcher,
+  "533bb94a8850ee3ccbe483106489399112b74c905342cb1792a797a0494e4459": indyFetcher,
 };
