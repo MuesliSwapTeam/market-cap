@@ -8,6 +8,7 @@ import copiFetcher from "./tokens/copi";
 import danaFetcher from "./tokens/dana";
 import dingFetcher from "./tokens/ding";
 import discoFetcher from "./tokens/disco";
+import djedFetcher from "./tokens/djed";
 import empFetcher from "./tokens/emp";
 import geroFetcher from "./tokens/gero";
 import herbFetcher from "./tokens/herb";
@@ -23,6 +24,7 @@ import nmkrFetcher from "./tokens/nmkr";
 import ntxFetcher from "./tokens/ntx";
 import paviaFetcher from "./tokens/pavia";
 import prsprFetcher from "./tokens/prspr";
+import shenFetcher from "./tokens/shen";
 import snowFetcher from "./tokens/snow";
 import sundaeFetcher from "./tokens/sundae";
 import vyfiFetcher from "./tokens/vyfi";
@@ -83,4 +85,6 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
   "8f52f6a88acf6127bc4758a16b6047afc4da7887feae121ec217b75a534e4f57":
     snowFetcher,
   bb4cfbe0f6be60b80f90f815e8353b93431de4df785d75350b9d214a48455242: herbFetcher,
+  "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61446a65644d6963726f555344": djedFetcher,
+  "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd615368656e4d6963726f555344": shenFetcher,
 };
