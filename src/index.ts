@@ -27,9 +27,11 @@ import paviaFetcher from "./tokens/pavia";
 import prsprFetcher from "./tokens/prspr";
 import shenFetcher from "./tokens/shen";
 import snowFetcher from "./tokens/snow";
+import societyFetcher from "./tokens/society";
 import sundaeFetcher from "./tokens/sundae";
 import vyfiFetcher from "./tokens/vyfi";
 import wmtFetcher from "./tokens/wmt";
+import wozFetcher from "./tokens/woz";
 import yummiFetcher from "./tokens/yummi";
 import { SupplyFetcher } from "./types";
 
@@ -90,4 +92,7 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
   bb4cfbe0f6be60b80f90f815e8353b93431de4df785d75350b9d214a48455242: herbFetcher,
   "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61446a65644d6963726f555344": djedFetcher,
   "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd615368656e4d6963726f555344": shenFetcher,
+  "32bc130691066340caf48ef53d52c684a0e497ffc935d2fd6741efe0574f5a": wozFetcher,
+  "25f0fc240e91bd95dcdaebd2ba7713fc5168ac77234a3d79449fc20c534f4349455459":
+    societyFetcher,
 };
