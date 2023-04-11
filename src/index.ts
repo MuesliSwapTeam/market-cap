@@ -3,6 +3,7 @@ import agcFetcher from "./tokens/agc";
 import agixFetcher from "./tokens/agix";
 import c3Fetcher from "./tokens/c3";
 import clapFetcher from "./tokens/clap";
+import clayFetcher from "./tokens/clay";
 import cnetaFetcher from "./tokens/cneta";
 import copiFetcher from "./tokens/copi";
 import danaFetcher from "./tokens/dana";
@@ -21,6 +22,7 @@ import milkFetcher from "./tokens/milk";
 import minFetcher from "./tokens/min";
 import mintFetcher from "./tokens/mint";
 import moaiFetcher from "./tokens/moai";
+import ninjazFetcher from "./tokens/ninjaz";
 import nmkrFetcher from "./tokens/nmkr";
 import ntxFetcher from "./tokens/ntx";
 import paviaFetcher from "./tokens/pavia";
@@ -95,4 +97,8 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
   "32bc130691066340caf48ef53d52c684a0e497ffc935d2fd6741efe0574f5a": wozFetcher,
   "25f0fc240e91bd95dcdaebd2ba7713fc5168ac77234a3d79449fc20c534f4349455459":
     societyFetcher,
+  df1d850c46d6c9d12cbf6181c35db9225a91b77c8a646b7f636f8ae40014df104e494e4a415a:
+    ninjazFetcher,
+  "38ad9dc3aec6a2f38e220142b9aa6ade63ebe71f65e7cc2b7d8a8535434c4159":
+    clayFetcher,
 };
