@@ -30,6 +30,7 @@ import ntxFetcher from "./tokens/ntx";
 import paviaFetcher from "./tokens/pavia";
 import prsprFetcher from "./tokens/prspr";
 import shenFetcher from "./tokens/shen";
+import snekFetcher from "./tokens/snek";
 import snowFetcher from "./tokens/snow";
 import societyFetcher from "./tokens/society";
 import sundaeFetcher from "./tokens/sundae";
@@ -106,4 +107,6 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
   ee0633e757fdd1423220f43688c74678abde1cead7ce265ba8a24fcd43424c50: cblpFetcher,
   "682fe60c9918842b3323c43b5144bc3d52a23bd2fb81345560d73f634e45574d":
     newmFetcher,
+  "279c909f348e533da5808898f87f9a14bb2c3dfbbacccd631d927a3f534e454b":
+    snekFetcher,
 };
