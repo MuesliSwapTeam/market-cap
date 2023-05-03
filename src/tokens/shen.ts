@@ -1,17 +1,22 @@
 import { defaultFetcherOptions, SupplyFetcher } from "../types";
 import { getAmountInAddresses, getBlockFrostInstance } from "../utils";
 
-const SHEN = "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd615368656e4d6963726f555344";
+const SHEN =
+  "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd615368656e4d6963726f555344";
+const DJEDNFT =
+  "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61446a6564537461626c65436f696e4e4654";
 
 const fetcher: SupplyFetcher = async (options = defaultFetcherOptions) => {
   const blockFrost = getBlockFrostInstance(options);
-  const total = Number(1_000_000_000_000n);
-  const treasury = Number(await getAmountInAddresses(blockFrost, SHEN, [
-    "addr1z8297ay4dlcdngmat86080adn8f8jlvveammehrunpx60aqm5kjdmrpmng059yellupyvwgay2v0lz6663swmds7hp0qnm8ly0", // treasury
-  ])) / 1e6;
+  const total = 1e12;
+  const addresses = await blockFrost.assetsAddresses(DJEDNFT);
+  const treasuryRaw = await getAmountInAddresses(blockFrost, SHEN, [
+    addresses[0]["address"],
+  ]);
+  const treasury = Number(treasuryRaw) / 1e6;
   return {
     circulating: (total - treasury).toString(),
-    total: total.toString(),
+    total: (total - treasury).toString(),
   };
 };
 
