@@ -99,8 +99,6 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
   "8f52f6a88acf6127bc4758a16b6047afc4da7887feae121ec217b75a534e4f57":
     snowFetcher,
   bb4cfbe0f6be60b80f90f815e8353b93431de4df785d75350b9d214a48455242: herbFetcher,
-  "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61446a65644d6963726f555344": djedFetcher,
-  "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd615368656e4d6963726f555344": shenFetcher,
   "32bc130691066340caf48ef53d52c684a0e497ffc935d2fd6741efe0574f5a": wozFetcher,
   "25f0fc240e91bd95dcdaebd2ba7713fc5168ac77234a3d79449fc20c534f4349455459":
     societyFetcher,
@@ -108,6 +106,10 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
     ninjazFetcher,
   "38ad9dc3aec6a2f38e220142b9aa6ade63ebe71f65e7cc2b7d8a8535434c4159":
     clayFetcher,
+  "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61446a65644d6963726f555344":
+    djedFetcher,
+  "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd615368656e4d6963726f555344":
+    shenFetcher,
   ee0633e757fdd1423220f43688c74678abde1cead7ce265ba8a24fcd43424c50: cblpFetcher,
   "682fe60c9918842b3323c43b5144bc3d52a23bd2fb81345560d73f634e45574d":
     newmFetcher,
