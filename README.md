@@ -1,5 +1,7 @@
 # Market Cap
 
+> This is the fork used by MuesliSwap to display market cap information on tokens
+
 Transparent, accurate and open-sourced circulating supply and market cap calculation for Cardano's native tokens.
 
 ## Overview
