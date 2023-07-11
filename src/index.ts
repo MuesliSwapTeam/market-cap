@@ -41,6 +41,7 @@ import paviaFetcher from "./tokens/pavia";
 import prsprFetcher from "./tokens/prspr";
 import shenFetcher from "./tokens/shen";
 import snekFetcher from "./tokens/snek";
+import rjvFetcher from "./tokens/rjv";
 import snowFetcher from "./tokens/snow";
 import societyFetcher from "./tokens/society";
 import stableFetcher from "./tokens/stable";
@@ -144,4 +145,5 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
     stableFetcher,
   c0ee29a85b13209423b10447d3c2e6a50641a15c57770e27cb9d507357696e67526964657273:
     wrtFetcher,
+  "8cfd6893f5f6c1cc954cec1a0a1460841b74da6e7803820dde62bb78524a56": rjvFetcher,
 };
