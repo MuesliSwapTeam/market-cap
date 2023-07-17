@@ -2,6 +2,7 @@ import aadaFetcher from "./tokens/aada";
 import agcFetcher from "./tokens/agc";
 import agixFetcher from "./tokens/agix";
 import ashibFetcher from "./tokens/ashib";
+import awooFetcher from "./tokens/awoo";
 import bankFetcher from "./tokens/bank";
 import bubbleFetcher from "./tokens/bubble";
 import c3Fetcher from "./tokens/c3";
@@ -126,6 +127,7 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
     ninjazFetcher,
   "38ad9dc3aec6a2f38e220142b9aa6ade63ebe71f65e7cc2b7d8a8535434c4159":
     clayFetcher,
+  "8cfd6893f5f6c1cc954cec1a0a1460841b74da6e7803820dde62bb78524a56": rjvFetcher,
   "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61446a65644d6963726f555344":
     djedFetcher,
   "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd615368656e4d6963726f555344":
@@ -150,9 +152,10 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
     stableFetcher,
   c0ee29a85b13209423b10447d3c2e6a50641a15c57770e27cb9d507357696e67526964657273:
     wrtFetcher,
-  "8cfd6893f5f6c1cc954cec1a0a1460841b74da6e7803820dde62bb78524a56": rjvFetcher,
-  "4fde92c2f6dbcfa2879b44f7453872b31394cfb2f70f1d4c411169ac427562626c65":
-    bubbleFetcher,
   "8654e8b350e298c80d2451beb5ed80fc9eee9f38ce6b039fb8706bc34c4f4253544552":
     lobsterFetcher,
+  "4fde92c2f6dbcfa2879b44f7453872b31394cfb2f70f1d4c411169ac427562626c65":
+    bubbleFetcher,
+  "09f5f55fcad17503e6b7acc81de7c80f84b76e76d17085f0e32f1ce241574f4f":
+    awooFetcher,
 };
