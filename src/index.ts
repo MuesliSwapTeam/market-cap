@@ -58,6 +58,7 @@ import vyfiFetcher from "./tokens/vyfi";
 import wmtFetcher from "./tokens/wmt";
 import wozFetcher from "./tokens/woz";
 import wrtFetcher from "./tokens/wrt";
+import xvyfiFetcher from "./tokens/xvyfi";
 import yummiFetcher from "./tokens/yummi";
 import { SupplyFetcher } from "./types";
 
@@ -168,4 +169,6 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
   "7914fae20eb2903ed6fd5021a415c1bd2626b64a2d86a304cb40ff5e4c494649": lifiFetcher,
   a3931691f5c4e65d01c429e473d0dd24c51afdb6daf88e632a6c1e516f7263666178746f6b656e:
     factFetcher,
+  b316f8f668aca7359ecc6073475c0c8106239bf87e05a3a1bd5697647856594649:
+    xvyfiFetcher,
 };
