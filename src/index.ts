@@ -41,6 +41,7 @@ import minFetcher from "./tokens/min";
 import mintFetcher from "./tokens/mint";
 import mntFetcher from "./tokens/mnt";
 import moaiFetcher from "./tokens/moai";
+import myieldFetcher from "./tokens/myield";
 import newmFetcher from "./tokens/newm";
 import ninjazFetcher from "./tokens/ninjaz";
 import nmkrFetcher from "./tokens/nmkr";
@@ -181,4 +182,5 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
     pepeblueFetcher,
   "0d90046ad35546156aaf790525133f7fc713ca2790e397784b85f5c85554494c":
     utilFetcher,
+  "8f9c32977d2bacb87836b64f7811e99734c6368373958da20172afba4d5949454c44": myieldFetcher,
 };
