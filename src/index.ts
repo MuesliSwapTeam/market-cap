@@ -27,14 +27,17 @@ import gensxFetcher from "./tokens/gensx";
 import geroFetcher from "./tokens/gero";
 import herbFetcher from "./tokens/herb";
 import hoskyFetcher from "./tokens/hosky";
+import huntFetcher from "./tokens/hunt";
 import iagFetcher from "./tokens/iag";
 import ibtcFetcher from "./tokens/ibtc";
 import iethFetcher from "./tokens/ieth";
 import indyFetcher from "./tokens/indy";
 import iusdFetcher from "./tokens/iusd";
+import jpgFetcher from "./tokens/jpg";
 import lifiFetcher from "./tokens/lifi";
 import lobsterFetcher from "./tokens/lobster";
 import liqwidFetcher from "./tokens/lq";
+import mayzFetcher from "./tokens/mayz";
 import meldFetcher from "./tokens/meld";
 import milkFetcher from "./tokens/milk";
 import minFetcher from "./tokens/min";
@@ -91,6 +94,8 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
     cnetaFetcher,
   "29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e74":
     mintFetcher,
+  "95a427e384527065f2f8946f5e86320d0117839a5e98ea2c0b55fb0048554e54":
+    huntFetcher,
   "1d7f33bd23d85e1a25d87d86fac4f199c3197a2f7afeb662a0f34e1e776f726c646d6f62696c65746f6b656e":
     wmtFetcher,
   c88bbd1848db5ea665b1fffbefba86e8dcd723b5085348e8a8d2260f44414e41: danaFetcher,
@@ -172,7 +177,8 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
   "43b07d4037f0d75ee10f9863097463fc02ff3c0b8b705ae61d9c75bf4d796e746820546f6b656e":
     mntFetcher,
   "1ddcb9c9de95361565392c5bdff64767492d61a96166cb16094e54be4f5054": optFetcher,
-  "7914fae20eb2903ed6fd5021a415c1bd2626b64a2d86a304cb40ff5e4c494649": lifiFetcher,
+  "7914fae20eb2903ed6fd5021a415c1bd2626b64a2d86a304cb40ff5e4c494649":
+    lifiFetcher,
   a3931691f5c4e65d01c429e473d0dd24c51afdb6daf88e632a6c1e516f7263666178746f6b656e:
     factFetcher,
   b316f8f668aca7359ecc6073475c0c8106239bf87e05a3a1bd5697647856594649:
@@ -182,5 +188,9 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
     pepeblueFetcher,
   "0d90046ad35546156aaf790525133f7fc713ca2790e397784b85f5c85554494c":
     utilFetcher,
-  "8f9c32977d2bacb87836b64f7811e99734c6368373958da20172afba4d5949454c44": myieldFetcher,
+  "8f9c32977d2bacb87836b64f7811e99734c6368373958da20172afba4d5949454c44":
+    myieldFetcher,
+  "9e975c76508686eb2d57985dbaea7e3843767a31b4dcf4e99e5646834d41595a":
+    mayzFetcher,
+  "681b5d0383ac3b457e1bcc453223c90ccef26b234328f45fa10fd2764a5047": jpgFetcher,
 };
