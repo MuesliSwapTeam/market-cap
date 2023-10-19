@@ -1,7 +1,7 @@
 import { defaultFetcherOptions, SupplyFetcher } from "../types";
 import { getAmountInAddresses, getBlockFrostInstance } from "../utils";
 
-const SPF = "09f2d4e4a5c3662f4c1e6a7d9600e9605279dbdcedb22d4507cb6e75";
+const SPF = "09f2d4e4a5c3662f4c1e6a7d9600e9605279dbdcedb22d4507cb6e75535046";
 
 const SPECTRUM_NETWORK_VAULT_ADDRESSES = [
   "addr1v8njca4vkseetespu6jjtlk25sy46ya3qvrcp7n5c7zy9esj2g22a",
@@ -36,7 +36,7 @@ const fetcher: SupplyFetcher = async (options = defaultFetcherOptions) => {
     1e6;
 
   return {
-    circulating: (total - treasury + spnVault + unclaimed).toString(),
+    circulating: (total - treasury - spnVault - unclaimed).toString(),
     total: total.toString(),
   };
 };
