@@ -4,6 +4,7 @@ import agixFetcher from "./tokens/agix";
 import ashibFetcher from "./tokens/ashib";
 import awooFetcher from "./tokens/awoo";
 import bankFetcher from "./tokens/bank";
+import bookFetcher from "./tokens/book";
 import bubbleFetcher from "./tokens/bubble";
 import c3Fetcher from "./tokens/c3";
 import cblpFetcher from "./tokens/cblp";
@@ -59,6 +60,7 @@ import prsprFetcher from "./tokens/prspr";
 import rjvFetcher from "./tokens/rjv";
 import shenFetcher from "./tokens/shen";
 import snekFetcher from "./tokens/snek";
+import snepeFetcher from "./tokens/snepe";
 import snowFetcher from "./tokens/snow";
 import societyFetcher from "./tokens/society";
 import spfFetcher from "./tokens/spf";
@@ -210,4 +212,8 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
   "52162581184a457fad70470161179c5766f00237d4b67e0f1df1b4e65452544c":
     trtlFetcher,
   "09f2d4e4a5c3662f4c1e6a7d9600e9605279dbdcedb22d4507cb6e75535046": spfFetcher,
+  b3bd74dd43f83815519e387bdffd1cb9be411df8f2774f48e0fd3669534e455045:
+    snepeFetcher,
+  "51a5e236c4de3af2b8020442e2a26f454fda3b04cb621c1294a0ef34424f4f4b":
+    bookFetcher,
 };
