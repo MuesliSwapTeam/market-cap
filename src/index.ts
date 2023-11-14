@@ -9,6 +9,7 @@ import bubbleFetcher from "./tokens/bubble";
 import c3Fetcher from "./tokens/c3";
 import cblpFetcher from "./tokens/cblp";
 import cbtcFetcher from "./tokens/cbtc";
+import cgiFetcher from "./tokens/cgi";
 import chryFetcher from "./tokens/chry";
 import clapFetcher from "./tokens/clap";
 import clayFetcher from "./tokens/clay";
@@ -16,6 +17,7 @@ import cnetaFetcher from "./tokens/cneta";
 import copiFetcher from "./tokens/copi";
 import cswapFetcher from "./tokens/cswap";
 import danaFetcher from "./tokens/dana";
+import derpFetcher from "./tokens/derp";
 import dgafFetcher from "./tokens/dgaf";
 import dingFetcher from "./tokens/ding";
 import discoFetcher from "./tokens/disco";
@@ -50,10 +52,12 @@ import mntFetcher from "./tokens/mnt";
 import moaiFetcher from "./tokens/moai";
 import myieldFetcher from "./tokens/myield";
 import newmFetcher from "./tokens/newm";
+import nftcFetcher from "./tokens/nftc";
 import ninjazFetcher from "./tokens/ninjaz";
 import nmkrFetcher from "./tokens/nmkr";
 import ntxFetcher from "./tokens/ntx";
 import optFetcher from "./tokens/opt";
+import optimFetcher from "./tokens/optim";
 import paviaFetcher from "./tokens/pavia";
 import pepeblueFetcher from "./tokens/pepeblue";
 import prsprFetcher from "./tokens/prspr";
@@ -192,6 +196,8 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
     lifiFetcher,
   a3931691f5c4e65d01c429e473d0dd24c51afdb6daf88e632a6c1e516f7263666178746f6b656e:
     factFetcher,
+  e52964af4fffdb54504859875b1827b60ba679074996156461143dc14f5054494d:
+    optimFetcher,
   b316f8f668aca7359ecc6073475c0c8106239bf87e05a3a1bd5697647856594649:
     xvyfiFetcher,
   "2d92af60ee429bce238d3fd9f2531b45457301d74dad1bcf3f9d1dca564e4d": vnmFetcher,
@@ -205,6 +211,7 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
     mayzFetcher,
   "681b5d0383ac3b457e1bcc453223c90ccef26b234328f45fa10fd2764a5047": jpgFetcher,
   b9168f05e657b6946fede254e383586cf7e7a2573d5a0fa12b3ef6ac494450: idpFetcher,
+  b0af30edf2c7f11465853821137e0a6ebc395cab71ee39c24127ffb44e465443: nftcFetcher,
   "1a71dc14baa0b4fcfb34464adc6656d0e562571e2ac1bc990c9ce5f6574f4c46":
     wolfFetcher,
   bf524874448cbf52be3a26133b0a0edf5eb65c09ffed383b881ad3274353574150:
@@ -216,4 +223,6 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
     snepeFetcher,
   "51a5e236c4de3af2b8020442e2a26f454fda3b04cb621c1294a0ef34424f4f4b":
     bookFetcher,
+  "961f2cac0bb1967d74691af179350c1e1062c7298d1f7be1e4696e31": derpFetcher,
+  "2d587111358801114f04df83dc0015de0a740b462b75cce5170fc935434749": cgiFetcher,
 };
