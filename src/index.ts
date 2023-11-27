@@ -52,6 +52,7 @@ import minFetcher from "./tokens/min";
 import mintFetcher from "./tokens/mint";
 import mntFetcher from "./tokens/mnt";
 import moaiFetcher from "./tokens/moai";
+import mtcFetcher from "./tokens/mtc";
 import myieldFetcher from "./tokens/myield";
 import newmFetcher from "./tokens/newm";
 import nftcFetcher from "./tokens/nftc";
@@ -236,4 +237,5 @@ export const supplyFetchers: Record<string, SupplyFetcher> = {
   f6696363e9196289ef4f2b4bf34bc8acca5352cdc7509647afe6888f54454459: tedyFetcher,
   "20cd68533b47565f3c61efb39c30fdace9963bfa4c0060b613448e3c50524f584945":
     proxiesFetcher,
+  f6ac48c64aa7af16434d9f84e014d11fba38525b436acc338ff20b0d4d7463: mtcFetcher,
 };
