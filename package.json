@@ -1,6 +1,6 @@
 {
   "name": "@muesliswap/market-cap",
-  "version": "0.1.62",
+  "version": "0.1.63",
   "description": "Transparent and accurate market cap for Cardano native tokens",
   "main": "./build/index.js",
   "module": "./build/index.es.js",
